@@ -1,0 +1,27 @@
+[15-Oct-2019 00:48:40 America/Sao_Paulo] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/secret48/public_html/php/sql.php on line 21
+[22-Oct-2019 17:48:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'result' (T_STRING), expecting ',' or ';' in /home1/secret48/public_html/view/work.php on line 109
+[22-Oct-2019 18:48:49 America/Sao_Paulo] PHP Warning:  mysqli_connect(): (28000/9002): The connection string may not be right. Please visit portal for references. in /home1/secret48/public_html/php/sql.php on line 21
+[22-Oct-2019 18:56:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in /home1/secret48/public_html/php/sql.php:21
+Stack trace:
+#0 /home1/secret48/public_html/view/work.php(31): Sql->query('INSERT INTO tb_...')
+#1 {main}
+  thrown in /home1/secret48/public_html/php/sql.php on line 21
+[22-Oct-2019 19:21:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_prepare() in /home1/secret48/public_html/php/sql.php:58
+Stack trace:
+#0 /home1/secret48/public_html/view/work.php(31): Sql->execute('INSERT INTO tb_...')
+#1 {main}
+  thrown in /home1/secret48/public_html/php/sql.php on line 58
+[22-Oct-2019 19:24:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_prepare() in /home1/secret48/public_html/php/sql.php:58
+Stack trace:
+#0 /home1/secret48/public_html/view/work.php(31): Sql->execute('INSERT INTO tb_...')
+#1 {main}
+  thrown in /home1/secret48/public_html/php/sql.php on line 58
+[22-Oct-2019 19:37:49 America/Sao_Paulo] PHP Warning:  mysqli_connect(): (28000/9002): The connection string may not be right. Please visit portal for references. in /home1/secret48/public_html/php/sql.php on line 24
+[22-Oct-2019 19:37:49 America/Sao_Paulo] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/secret48/public_html/php/sql.php on line 32
+[22-Oct-2019 19:40:47 America/Sao_Paulo] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home1/secret48/public_html/php/sql.php on line 26
+[22-Oct-2019 19:42:09 America/Sao_Paulo] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/secret48/public_html/php/sql.php on line 29
+[22-Oct-2019 19:43:04 America/Sao_Paulo] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/secret48/public_html/php/sql.php on line 29
+[10-Dec-2019 10:11:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method Sql::query() in /home1/secret48/public_html/view/work.php:106
+Stack trace:
+#0 {main}
+  thrown in /home1/secret48/public_html/view/work.php on line 106
